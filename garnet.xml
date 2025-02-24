@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: garnet
+    * rom: CrDroid
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/myselly" name="org" />
+    <remote fetch="https://gitlab.com/unmoved21" name="org2" />
+        
+    <!-- Device -->
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="lineage-22.1" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="lineage-22.1" />
+
+    <!-- Kernel -->
+    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="org" revision="lineage-22.1" />
+
+    <!-- Hardware -->
+    <project name="android_hardware_xiaomi_garnet" path="hardware/xiaomi" remote="org" revision="lineage-22.1" />
+
+    <!-- Camera -->
+    <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="org2" revision="15" />
+
+</manifest>
