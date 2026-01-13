@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--
-    * target: garnet
-    * rom: CrDroid
-    -->
-    
-    <remote fetch="https://github.com/myselly" name="org" />
-    <remote fetch="https://github.com/stuff-garnet" name="org2" />
-    <remote fetch="https://github.com/unmoved21" name="org3" />
+    <remote fetch="https://github.com/crdroidandroid" name="org1" />
+    <remote fetch="https://github.com/MySelly" name="org2" />
 
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="15.0" />
-    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="15.0" />
-    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="org" revision="15.0" />
-    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="org3" revision="lineage-22.1" />
-    <project name="vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" />
-    <project name="device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" />
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org1" revision="15.0" />
+    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org1" revision="15.0" />
+    <project name="android_kernel_xiaomi_garnet" path="kernel/xiaomi/garnet" remote="org1" revision="15.0" />
+    <project name="android_kernel_xiaomi_garnet-modules" path="kernel/xiaomi/garnet-modules" remote="org2" revision="lineage-22.2"
+    <project name="android_kernel_xiaomi_garnet-devicetrees" path="kernel/xiaomi/garnet-devicetrees" remote="org2" revision="lineage-22.2"
+    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="org2" revision="lineage-22.1" />
+    <project name="hardware_xiaomi_garnet" path="hardware/xiaomi" remote="org2" revision="lineage-22.2" />
 </manifest>
