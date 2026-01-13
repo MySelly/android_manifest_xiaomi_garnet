@@ -1,1 +1,0 @@
-# android_manifest_xiaomi_garnet
